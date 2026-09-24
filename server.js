@@ -6,6 +6,9 @@ const path = require('path');
 
 const app = express();
 
+app.use(express.static(path.join(__dirname, 'public')));
+
+
 // 1. Explicitly allow CORS for all origins & HTTP methods
 app.use(cors({
   origin: '*',
@@ -18,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // 2. Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/event_portal')
+mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('✅ Connected to MongoDB'))
   .catch((err) => console.error('❌ Connection error:', err));
 
@@ -73,7 +76,7 @@ app.get('/api/events', async (req, res) => {
 app.post('/api/events', upload.single('featureImage'), async (req, res) => {
   try {
     const { title, category, status, format, date, location, websiteUrl } = req.body;
-    const imageUrl = req.file ? `http://localhost:5000/uploads/${req.file.filename}` : '';
+    const imageUrl = req.file ? `/uploads/${req.file.filename}` : '';
 
     const newEvent = new Event({
       title,
@@ -104,7 +107,7 @@ app.put('/api/events/:id', (req, res, next) => {
     const updateData = { ...req.body };
 
     if (req.file) {
-      updateData.featureImage = `http://localhost:5000/uploads/${req.file.filename}`;
+      updateData.featureImage = `/uploads/${req.file.filename}`;
     } else {
       delete updateData.featureImage; // Preserve existing image if no file selected
     }
@@ -136,4 +139,11 @@ app.delete('/api/events/:id', async (req, res) => {
   }
 });
 
-app.listen(5000, () => console.log('🚀 Server running on http://localhost:5000'));
+const PORT = process.env.PORT || 5000;
+
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+app.listen(PORT, () => console.log('🚀 Server running on http://localhost:5000'));
