@@ -1,0 +1,141 @@
+{"timestamp":"2026-08-22T14:09:39.644Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-22T14:09:41.174Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-22T14:09:43.389Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-23T06:43:40.856Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-23T06:43:43.180Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-23T06:43:53.765Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-23T06:43:55.995Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-23T06:57:42.609Z","level":"ERROR","message":"(node:4032936) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.\n(Use `node --trace-warnings ...` to show where the warning was created)"}
+{"timestamp":"2026-08-24T06:29:46.368Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-24T06:29:48.614Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-24T06:35:25.912Z","level":"ERROR","message":"(node:116724) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.\n(Use `node --trace-warnings ...` to show where the warning was created)"}
+{"timestamp":"2026-08-24T14:32:04.170Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-24T14:32:06.441Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-25T12:55:10.381Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-25T12:55:12.754Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-25T13:58:28.616Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-25T13:58:30.997Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-25T14:53:48.530Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-25T14:53:50.864Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-25T17:14:31.765Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-25T17:14:34.068Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-26T03:25:46.413Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-26T03:25:48.724Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-26T18:02:21.487Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-26T18:02:23.756Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-26T19:39:14.179Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-26T19:39:16.535Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-27T21:39:05.611Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-27T21:39:07.880Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-28T04:16:10.392Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-28T04:16:12.651Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-28T18:56:14.100Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-28T18:56:16.394Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-28T20:47:00.092Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-28T20:47:02.406Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-31T02:26:30.459Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-31T02:26:32.704Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-08-31T03:14:43.380Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-08-31T03:14:45.634Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-01T02:19:09.212Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-01T02:19:11.484Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-01T06:40:17.891Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-01T06:40:20.148Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-01T08:58:24.157Z","level":"ERROR","message":"(node:487728) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.\n(Use `node --trace-warnings ...` to show where the warning was created)"}
+{"timestamp":"2026-09-02T04:17:22.861Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-02T04:17:25.176Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-02T07:30:39.955Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-02T07:30:42.353Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-02T16:19:40.265Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-02T16:19:42.527Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-04T00:13:46.102Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-04T00:13:48.440Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-04T07:37:14.923Z","level":"ERROR","message":"(node:4064834) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.\n(Use `node --trace-warnings ...` to show where the warning was created)"}
+{"timestamp":"2026-09-04T07:38:10.895Z","level":"ERROR","message":"(node:4064834) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-04T07:48:25.240Z","level":"ERROR","message":"(node:4064834) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-06T18:40:34.682Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-06T18:40:37.030Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-07T04:00:53.102Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-07T04:00:55.351Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-08T08:09:02.753Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-08T08:09:05.205Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-08T16:10:38.946Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-08T16:10:41.221Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-08T16:47:44.270Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-08T16:47:46.544Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-09T06:22:33.878Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.\n(Use `node --trace-warnings ...` to show where the warning was created)"}
+{"timestamp":"2026-09-09T06:22:41.861Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T06:23:01.644Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T06:23:20.658Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T07:09:44.245Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T07:11:21.725Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T07:14:54.294Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T07:16:47.489Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T07:17:57.477Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T07:21:24.799Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T07:24:12.567Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-09T09:20:37.433Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-10T11:38:13.396Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-10T11:43:06.835Z","level":"ERROR","message":"(node:2537984) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-10T21:08:33.066Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-10T21:08:35.369Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-11T04:35:09.002Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-11T04:35:11.451Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-11T06:36:51.043Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.\n(Use `node --trace-warnings ...` to show where the warning was created)"}
+{"timestamp":"2026-09-11T06:51:41.990Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T06:52:43.616Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T06:59:11.636Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T07:01:45.072Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T07:02:41.171Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T08:54:32.517Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T09:25:42.142Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T10:09:47.453Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T10:11:21.930Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T10:23:11.062Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T10:23:20.874Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T10:24:32.630Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T10:31:06.396Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T10:41:19.091Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T10:42:39.634Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T10:45:10.914Z","level":"ERROR","message":"(node:1316473) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-11T13:48:36.783Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-11T13:48:39.134Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-11T15:02:12.353Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-11T15:02:14.685Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-11T18:08:42.154Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-11T18:08:44.528Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-12T03:07:12.232Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-12T03:07:14.575Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-12T07:17:04.223Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-12T07:17:06.620Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-14T06:35:14.181Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-14T06:35:16.480Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-14T10:25:09.508Z","level":"ERROR","message":"(node:3607086) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.\n(Use `node --trace-warnings ...` to show where the warning was created)"}
+{"timestamp":"2026-09-14T10:42:44.052Z","level":"ERROR","message":"(node:3607086) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead."}
+{"timestamp":"2026-09-14T23:54:08.448Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-14T23:54:10.694Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-15T06:47:30.806Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-15T06:47:33.085Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-15T09:08:08.989Z","level":"ERROR","message":"(node:1065771) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.\n(Use `node --trace-warnings ...` to show where the warning was created)"}
+{"timestamp":"2026-09-15T20:39:58.088Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-15T20:40:00.379Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-16T01:15:55.672Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-16T01:15:58.108Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-16T20:46:33.405Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-16T20:46:35.701Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-16T22:34:05.780Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-16T22:34:08.085Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-17T17:47:14.722Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-17T17:47:17.076Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-17T19:22:38.162Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-17T19:22:40.480Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-18T01:17:35.167Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-18T01:17:37.534Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-19T07:28:33.817Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-19T07:29:03.856Z","level":"ERROR","message":"❌ Connection error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/home/u902218437/domains/events.bharatnetworkgroup.com/hbuilds/versions/01a029ce-244a-7395-a9bd-5fb759b89d0d/nodejs/node_modules/mongoose/lib/connection.js:1175:11)\n    at NativeConnection.openUri (/home/u902218437/domains/events.bharatnetworkgroup.com/hbuilds/versions/01a029ce-244a-7395-a9bd-5fb759b89d0d/nodejs/node_modules/mongoose/lib/connection.js:1106:11)"}
+{"timestamp":"2026-09-23T09:57:07.969Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-23T09:57:10.272Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-23T18:10:44.404Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-23T18:10:46.665Z","level":"LOG","message":"✅ Connected to MongoDB"}
+{"timestamp":"2026-09-24T00:30:51.929Z","level":"LOG","message":"🚀 Server running on http://localhost:5000"}
+{"timestamp":"2026-09-24T00:30:54.224Z","level":"LOG","message":"✅ Connected to MongoDB"}
