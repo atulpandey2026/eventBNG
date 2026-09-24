@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharat Network Group | Industry Events</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --brand-red: #EE4023;
+      --brand-red-hover: #d33217;
+      --bg-white: #ffffff;
+      --bg-light: #f8f9fa;
+      --text-dark: #111827;
+      --text-muted: #6b7280;
+      --border-color: #e5e7eb;
+    }
+
+    body { background-color: var(--bg-white); color: var(--text-dark); font-family: 'Inter', sans-serif; }
+    .navbar { background-color: var(--bg-white); border-bottom: 1px solid var(--border-color); padding: 0.85rem 0; }
+    .navbar-brand { font-weight: 800; font-size: 1.35rem; color: var(--text-dark); display: flex; align-items: center; gap: 10px; }
+    .brand-logo-icon { background-color: var(--brand-red); color: white; width: 38px; height: 38px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 800; }
+    .brand-red-text { color: var(--brand-red); }
+
+    .hero-section { background-color: var(--bg-light); border-bottom: 1px solid var(--border-color); padding: 2.5rem 0; }
+    
+    .category-btn {
+      background-color: var(--bg-white); border: 1px solid var(--border-color); color: var(--text-muted);
+      border-radius: 6px; padding: 0.45rem 1rem; font-weight: 600; font-size: 0.85rem; margin: 0.2rem; transition: all 0.2s;
+    }
+    .category-btn:hover, .category-btn.active { background-color: var(--brand-red) !important; color: #fff !important; border-color: var(--brand-red) !important; }
+
+    .event-card { background-color: var(--bg-white); border: 1px solid var(--border-color); border-radius: 12px; overflow: hidden; height: 100%; display: flex; flex-direction: column; }
+    .card-img-container { position: relative; height: 190px; background-color: #f3f4f6; }
+    .card-img-container img { width: 100%; height: 100%; object-fit: cover; }
+    
+    .badge-category { position: absolute; top: 10px; right: 10px; background: var(--brand-red); color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; }
+    .badge-format { position: absolute; top: 10px; left: 10px; background: rgba(17, 24, 39, 0.85); color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; }
+
+    .btn-brand-primary { background-color: var(--brand-red); border: 1px solid var(--brand-red); color: white; font-weight: 600; border-radius: 6px; }
+    .btn-brand-primary:hover { background-color: var(--brand-red-hover); color: white; }
+    .btn-brand-outline { background: transparent; border: 1px solid var(--border-color); color: var(--text-dark); font-weight: 600; border-radius: 6px; }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <div class="brand-logo-icon">B</div>
+        <span>BHARAT <span class="brand-red-text">NETWORK GROUP</span></span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-2">Industry Events & <span class="brand-red-text">Summits</span></h2>
+      <p class="text-muted mb-0">Empowering business networks across Tech, Banking, Pharma, and Enterprise sectors.</p>
+    </div>
+  </header>
+
+  <div class="container py-4">
+    <!-- Public Dropdown Filters Bar -->
+    <div class="row g-3 mb-4 bg-light p-3 rounded-3 border">
+      <div class="col-md-6">
+        <label class="form-label fw-bold small text-muted">EVENT STATUS</label>
+        <select class="form-select" id="statusFilter" onchange="fetchEvents()">
+          <option value="All">All Events (Upcoming & Past)</option>
+          <option value="Upcoming" selected>Upcoming Events</option>
+          <option value="Past">Past Events</option>
+        </select>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label fw-bold small text-muted">EVENT FORMAT</label>
+        <select class="form-select" id="formatFilter" onchange="fetchEvents()">
+          <option value="All" selected>All Formats</option>
+          <option value="In-person Event">In-person Event</option>
+          <option value="Residential Event">Residential Event</option>
+          <option value="Round Table">Round Table</option>
+          <option value="Custom Event">Custom Event</option>
+          <option value="Panel Discussion">Panel Discussion</option>
+          <option value="Webinar">Webinar</option>
+          <option value="Case Study">Case Study</option>
+          <option value="Virtual Event">Virtual Event</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Category Filters -->
+    <div class="d-flex flex-wrap justify-content-center mb-4" id="categoryContainer"></div>
+
+    <!-- Count Banner -->
+    <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
+      <h5 id="currentCategoryTitle" class="fw-bold mb-0">All Events</h5>
+      <span class="badge bg-light text-dark border px-3 py-2" id="eventCount">0 Events</span>
+    </div>
+
+    <!-- Grid -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="eventsGrid"></div>
+  </div>
+
+  <!-- Public Details Modal (Read-Only) -->
+  <div class="modal fade" id="eventModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="modalTitle">Event Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img id="modalImage" src="" class="img-fluid rounded-3 mb-3 w-100" style="max-height: 200px; object-fit: cover;">
+          <div class="d-flex gap-2 mb-3">
+            <span class="badge bg-danger" id="modalCategory"></span>
+            <span class="badge bg-dark" id="modalFormat"></span>
+            <span class="badge bg-secondary" id="modalStatus"></span>
+          </div>
+          <p class="mb-1"><i class="bi bi-calendar-event text-danger me-2"></i><span id="modalDate"></span></p>
+          <p class="mb-0"><i class="bi bi-geo-alt text-danger me-2"></i><span id="modalLocation"></span></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-brand-outline btn-sm" data-bs-dismiss="modal">Close</button>
+          <a id="modalWebsite" href="#" target="_blank" class="btn btn-brand-primary btn-sm">Visit Event Site</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const categories = ["All", "NBFC", "Education", "Tech", "BFSI", "Banking", "Enterprise", "Pharma", "Marketing"];
+    let events = [];
+    let currentCategory = "All";
+
+    document.addEventListener("DOMContentLoaded", () => {
+      renderCategories();
+      fetchEvents();
+    });
+
+    function renderCategories() {
+      document.getElementById("categoryContainer").innerHTML = categories.map(cat => `
+        <button class="category-btn ${cat === currentCategory ? 'active' : ''}" onclick="setCategory('${cat}')">${cat}</button>
+      `).join('');
+    }
+
+    function setCategory(cat) {
+      currentCategory = cat;
+      renderCategories();
+      fetchEvents();
+    }
+
+    async function fetchEvents() {
+      const status = document.getElementById("statusFilter").value;
+      const format = document.getElementById("formatFilter").value;
+
+      const params = new URLSearchParams({ category: currentCategory, status, format });
+      const res = await fetch(`http://localhost:5000/api/events?${params}`);
+      events = await res.json();
+      renderEvents();
+    }
+
+    function renderEvents() {
+      const grid = document.getElementById("eventsGrid");
+      document.getElementById("eventCount").textContent = `${events.length} Events`;
+
+      if (events.length === 0) {
+        grid.innerHTML = `<div class="col-12 text-center py-5 text-muted">No events found matching criteria.</div>`;
+        return;
+      }
+
+      grid.innerHTML = events.map(e => `
+        <div class="col">
+          <div class="event-card">
+            <div class="card-img-container">
+              <img src="${e.featureImage}" alt="${e.title}">
+              <span class="badge-format">${e.format || 'In-person Event'}</span>
+              <span class="badge-category">${e.category}</span>
+            </div>
+            <div class="p-3 d-flex flex-column flex-grow-1">
+              <h6 class="fw-bold mb-2">${e.title}</h6>
+              <p class="small text-muted mb-1"><i class="bi bi-calendar3 text-danger me-1"></i> ${e.date}</p>
+              <p class="small text-muted mb-3"><i class="bi bi-geo-alt text-danger me-1"></i> ${e.location}</p>
+              <div class="mt-auto d-flex gap-2">
+                <button class="btn btn-brand-outline btn-sm flex-fill" onclick="openModal('${e._id}')">Details</button>
+                <a href="${e.websiteUrl}" target="_blank" class="btn btn-brand-primary btn-sm flex-fill text-center">Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function openModal(id) {
+      const event = events.find(e => e._id === id);
+      if (!event) return;
+
+      document.getElementById("modalTitle").textContent = event.title;
+      document.getElementById("modalImage").src = event.featureImage;
+      document.getElementById("modalCategory").textContent = event.category;
+      document.getElementById("modalFormat").textContent = event.format || 'In-person Event';
+      document.getElementById("modalStatus").textContent = event.status || 'Upcoming';
+      document.getElementById("modalDate").textContent = event.date;
+      document.getElementById("modalLocation").textContent = event.location;
+      document.getElementById("modalWebsite").href = event.websiteUrl;
+
+      new bootstrap.Modal(document.getElementById('eventModal')).show();
+    }
+  </script>
+</body>
+</html>
